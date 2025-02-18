@@ -7,3 +7,5 @@ README.md modificado.
 Portifolio/setting.py ajustado para referenciar a templates no app Projetos,
 Portifolio/setting.py ajustado para UTC e linguagem Brasileira,
 APP Projetos urls.py criado
+Change commit 0.1.
+Recommit pois esqueci de atualizar a documentação, ops
