@@ -1,0 +1,9 @@
+02/18/2025, 1:26 AM:
+Criado projeto Django "Portifolio" ,
+Criado app "Projeto".
+02/18/2025 1:31 AM:
+README.md modificado.
+02/18/2025 1:53 AM:
+Portifolio/setting.py ajustado para referenciar a templates no app Projetos,
+Portifolio/setting.py ajustado para UTC e linguagem Brasileira,
+APP Projetos urls.py criado
