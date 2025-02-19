@@ -1,11 +1,21 @@
 02/18/2025, 1:26 AM:
 Criado projeto Django "Portifolio" ,
 Criado app "Projeto".
-02/18/2025 1:31 AM:
+ 1:31 AM:
 README.md modificado.
-02/18/2025 1:53 AM:
+1:53 AM:
 Portifolio/setting.py ajustado para referenciar a templates no app Projetos,
 Portifolio/setting.py ajustado para UTC e linguagem Brasileira,
 APP Projetos urls.py criado
 Change commit 0.1.
 Recommit pois esqueci de atualizar a documentação, ops
+02/19/2025 07:45 AM:
+Migrado depedendência,
+Portifolio/settings.py melhorado UTC,
+Super Usuario Criado,
+File git ignore criado pra quando o projeto for local no meu pc,
+Virtual enviroment chamado 'venv' criado,
+Requirement.txt criado
+Commit 0.2
+
+
