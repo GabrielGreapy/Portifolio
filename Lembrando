@@ -1,2 +1,9 @@
 source venv/bin/activate
 python manage.py runserver
+[{% extends 'Projetos/base.html' %}
+
+{% block title %}{% endblock %}
+
+{% block content %}
+    
+{% endblock %}] template em outros sites
