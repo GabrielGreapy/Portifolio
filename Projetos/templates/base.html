@@ -2,6 +2,20 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    {% load static %}
+    <style>
+    .bem-vindo {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 50% 50%;
+        background: url("{% static 'img/img_bemvindo.jpg' %}");
+        background-repeat: no-repeat;
+        background-size: 100vw 80vh;
+        background-position: center;
+        height: 80vh;
+        width: 100vw;
+    }
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}{% endblock %}</title>
@@ -9,6 +23,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lekton:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -61,7 +78,7 @@
             </a>
             <div class="container-footer-redes">
                 <div class="redes">
-                    <img src="instagram.svg" alt="" class="logo-redes">
+                    <img src="{% static 'instagram.svg' %}" alt="" class="logo-redes">
                 </div>
             </div>
         </div>
