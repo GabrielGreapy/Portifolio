@@ -7,3 +7,4 @@ python manage.py runserver
 {% block content %}
     
 {% endblock %}] template em outros sites
+python manage.py collectstatic

@@ -5,22 +5,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}{% endblock %}</title>
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'Projetos/style.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <header>
+    <header class="container corPreta2">
+        <div class="container-home">
+            <a href="" class="item centro">
+                <div class="home alinhar">
+                    <img class="logo" src="/animação/G(1) (Cópia).png" alt="">
+                    Home
+                </div>
+            </a>
+            <a href="" class="item centro">
+                <div class="projeto centro alinhar">
+                    Projetos
+                </div> 
+            </a>
+            <a href="" class="item centro">
+                <div class="menu alinhar">
+                    Menu
+                </div>
+            </a>
+        </div>
     </header>
     <main>
         {% block content %}
         {% endblock %}
     </main>
-
-
-
-    <footer>
-        
+    <footer class="container corPreta">
+        <div class="container-footer">
+            <a href="">
+                <div class="item-footer centro">
+                    Home
+                </div>
+            </a>
+            <a href="">
+                <div class="item-footer centro">
+                    Serviços
+                </div>
+            </a>
+            <a href="">
+                <div class="item-footer centro">
+                    Sobre
+                </div>
+            </a>
+            <a href="">
+                <div class="item-footer centro">
+                    Contatos
+                </div>
+            </a>
+            <div class="container-footer-redes">
+                <div class="redes">
+                    <img src="instagram.svg" alt="" class="logo-redes">
+                </div>
+            </div>
+        </div>
     </footer>
-
 </body>
 </html>
