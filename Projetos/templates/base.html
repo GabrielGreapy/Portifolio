@@ -3,19 +3,7 @@
 <html lang="pt-br">
 <head>
     {% load static %}
-    <style>
-    .bem-vindo {
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows: 50% 50%;
-        background: url("{% static 'img/img_bemvindo.jpg' %}");
-        background-repeat: no-repeat;
-        background-size: 100vw 80vh;
-        background-position: center;
-        height: 80vh;
-        width: 100vw;
-    }
-    </style>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}{% endblock %}</title>
@@ -34,7 +22,7 @@
         <div class="container-home">
             <a href="" class="item centro">
                 <div class="home alinhar">
-                    <img class="logo" src="/animação/G(1) (Cópia).png" alt="">
+                    <img class="logo" src="{% static 'Projetos/img/logo_G.png' %}" alt="">
                     Home
                 </div>
             </a>
