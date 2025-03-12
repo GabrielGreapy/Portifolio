@@ -1,14 +1,53 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block title %}Home{% endblock %}
 
 {% block content %}
     <div class="container bem-vindo">
-        <h3 class="letreiro1 lekton-regular-italic">
+        <img src="{% static 'Projetos/img/bemvindo.jpg' %}" alt="Imagem hero" class="hero-image">
+        <h3 class="letreiro1 Altone">
             Web Development & Design & Web Development & Design & Web Development & Design & Web Development & Design & Web Development & Design & Web Development & Design
         </h3>
-        <h3 class="letreiro2 lekton-regular-italic">
+        <h3 class="letreiro2 Altone">
             & Criação & Manutenção & Criação & Manutenção & Criação & Manutenção & Criação & Manutenção & Criação & Manutenção & Criação & Manutenção & Criação & Manutenção & Criação & Manutenção & Criação & Manutenção & Criação & Manutenção & Criação & Manutenção & Criação & Manutenção & Criação & Manutenção& Criação & Manutenção& Criação & Manutenção& Criação & Manutenção
         </h3>
+    </div>
+    <div class="container corPreta3">
+        <div class="containerServicosgrid">
+            <div class="secao">
+                /Serviços
+            </div>
+            <div class="secao-conteudo">
+                <div class="conteudo-texto">
+                    <p class="secao-texto">Sites para seus negocios, obras organizadas e esteticamente otimas.</p>
+                </div>
+                <div class="div-conteudo">
+                    <div class="info borda">
+                        <h5>Marketing</h5>
+                        <h5>Seu negócio merece mais visibilidade. Vamos fazer isso acontecer!</h5>
+                    </div>
+                    <div class="info borda">
+                        <h5>Criação</h5>
+                        <h5>Do conceito à tela: criamos sites que encantam e convertem!</h5>
+                    </div>
+                    <div class="info borda">
+                        <div class="Cocogoose-Bold titulo">
+                            <h5>Manutenção</h5>
+                        </div>
+                        <div class="Cocogoose-Thin paragrafo">
+                            <h5>Sem complicação: seu site sempre no ar e atualizado!</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container borda">
+        <div class="conteinerprojeto">
+            <div class="gridprojetos">
+                
+            </div>
+        </div>
     </div>
 {% endblock %}
