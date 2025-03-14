@@ -1,10 +1,16 @@
-body{
-    margin: 0%;
+*{
+    box-sizing: border-box;
+    margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
+}
+:root{
+    --light: #fff
+    --dark: #1a1e24;
 }
 a{
     text-decoration: none;
-    color: #ffff;
+    color: var(--light);
     font-family: Libre Franklin;
     letter-spacing: 2px;
 }
@@ -89,7 +95,7 @@ a{
     .letreiro1, .letreiro2 {
         position: absolute; 
         z-index: 2; 
-        color: white;
+        color: var(--light);
         font-size: 5rem;
         white-space: nowrap;
         letter-spacing: 2px;
@@ -110,7 +116,7 @@ a{
         animation: 35s letreiro2Deslizando linear infinite;
     }
     .containerServicosgrid{
-        color: #ffff;
+        color: var(--light);
         width: 90%;
         height: 85vh;
         padding-top: 5rem;
@@ -162,7 +168,7 @@ a{
         font-family: "Lekton";
         height: 100%;
         width: 50%;
-        color: #ffff;
+        color: var(--light);
         padding-left: 2rem;
         padding-right: 2rem;
     
@@ -183,7 +189,7 @@ a{
         justify-content: center;
         align-items: center;
         text-align: center;
-        color: #ffffff;
+        color: var(--light);
         overflow: hidden;
     }
     
@@ -203,14 +209,14 @@ a{
         z-index: 1;
         text-align: center;
         padding: 20px;
-        background: rgba(0, 0, 0, 0.5); /* Fundo semitransparente para melhor legibilidade */
+        background: rgba(0, 0, 0, 0.5); 
         border-radius: 8px;
     }
     
     .chamada-texto {
         font-size: 2rem;
         font-family: "lekton-bold";
-        color: #fff;
+        color: var(--light);
         margin-bottom: 1rem;
     }
     
@@ -231,13 +237,13 @@ a{
         background: #23cd68;
         transition: background 0.3s ease-in-out;
         border-radius: 5%;
-        border: #fff solid;
+        border: var(--light) solid;
     }
 
     
     .btn-chamada:hover {
         background-color: #0f3b21;
-        color: #fff;
+        color: var(--light);
     }
     
 
@@ -260,7 +266,7 @@ a{
         background-color: #171b21;
     }
     .corPreta3{
-        background-color: #1a1e24;
+        background-color: var(--light);
     
     }
     .alinhar{
